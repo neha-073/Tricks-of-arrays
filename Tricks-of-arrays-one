@@ -1,0 +1,6 @@
+Q) How to store 2 numbers in the same array cell?
+A) If there are two numbers n1 and n2, one could come up with a larger number M (greater than both n1 and n2) and store a single number having value V = M*n1+n2.
+Later on, if we want to extract the 2 numbers from V, we can do so like so,
+
+n1 = V/M
+n2 = V%M
